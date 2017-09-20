@@ -29,14 +29,10 @@ public class testquidco {
 			System.out.println("Test Passed");
 		} else {
 			System.out.println("Test failed");
-		}
-		
+		}	
 
 		// Initiating new broswer window for another testcase
 		driver.get("https://www.quidco.com/join-quidco");
-
-		// Closing unwanted dialog
-		//signupForm.lnk_otherCountry(driver).click();
 
 		signupForm.lnk_Email(driver).sendKeys("email@");
 		signupForm.lnk_Password(driver).sendKeys("a");

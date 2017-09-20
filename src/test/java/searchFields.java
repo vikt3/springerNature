@@ -49,4 +49,20 @@ public class searchFields {
 		return element;
 
 	}
+	
+	public static WebElement startYear(WebDriver driver) {
+
+		element = driver.findElement(By.id("facet-start-year"));
+		
+		return element;
+
+	}
+	public static WebElement endYear(WebDriver driver) {
+
+		element = driver.findElement(By.id("facet-end-year"));
+		
+		return element;
+
+	}
+	
 }
